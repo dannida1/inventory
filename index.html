@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <script src="https://kit.fontawesome.com/513b1a454c.js" crossorigin="anonymous"></script>
+    <title>Document</title>
+</head>
+
+<body>
+
+    <!--dashboard navbar-->
+    <nav id="side_nav">
+        <h2>Admin</h2>
+        <a href="add.html" target="_blank">
+            <div class="nav_items">
+                <span><i></i></span>
+                <p>Add Item</p>
+            </div>
+        </a>
+        <div class="nav_items">
+            <span><i></i></span>
+            <p>Update Quantity</p>
+        </div>
+        <div class="nav_items">
+            <span><i></i></span>
+            <p>Update Item</p>
+        </div>
+        <div class="nav_items">
+            <span>
+                <i></i>
+            </span>
+            <p>Remove Item</p>
+        </div>
+    </nav>
+    <header>
+        <div id="header_nav">
+            <div>
+                <h3>Dashboard</h3>
+            </div>
+            <ul>
+                <li>Home</li>
+                <li>
+                    /
+                </li>
+                <li>Dashboard</li>
+            </ul>
+        </div>
+    </header>
+    <main id="container">
+        <!--items summary-->
+        <section class="item_sec">
+            <div id="item_details">
+                <div id="total_items">
+                    <div>
+                        <span>
+                            <i class="fa fa-database"></i>
+                            <img src="images/database1.png" alt="">
+                        </span>
+                        <p class="sum_txt">
+                            Total number of items
+                        </p>
+                        <p id="total_num" class="dyn_txt">
+                            5000
+                        </p>
+                    </div>
+                </div>
+                <div id="items_in_stock">
+                    <div>
+                        <span>
+                            <i class="fa fa-database"></i>
+                            <img src="images/database.png" alt="">
+                        </span>
+                        <p class="sum_txt">
+                            Items in stock
+                        </p>
+                        <p id="stock_num" class="dyn_txt">
+                            10000
+                        </p>
+                    </div>
+                </div>
+                <div id="numb_of_categories">
+                    <div>
+                        <span>
+                            <i class="fa fa-database"></i>
+                            <img src="images/categories.svg" alt="">
+                        </span>
+                        <p class="sum_txt">
+                            Number of categoriex
+                        </p>
+                        <p id="cate_num" class="dyn_txt">
+                            10000
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--items decripttion-->
+        <section>
+            <div id="items_des">
+                <div id="items_table">
+                    <table>
+                        <tr>
+                            <th>
+                                Item Name
+                            </th>
+                            <th>
+                                Category
+                            </th>
+                            <th>
+                                Desription
+                            </th>
+                            <th>
+                                Quantity available
+                            </th>
+                        </tr>
+                    </table>
+                </div>
+            </div>
+            <div id="labels">
+                <div id="labels_div">
+                    <div id="out_stock" class="labels">
+                        <span>item name</span>
+                        <span>status</span>
+                    </div>
+                    <div id="almost_out_stock" class="labels">
+                        <span>item name</span>
+                        <span>status</span>
+                    </div>
+                    <div id="in_stock" class="labels">
+                        <span>item name</span>
+                        <span>status</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+</body>
+
+</html>

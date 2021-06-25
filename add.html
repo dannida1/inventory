@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/dashboard.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <main>
+        <section id="form_section">
+            <h3>Add Items</h3>
+            <div id="form_container">
+                <form name="forms" id="form_item">
+                    <div>
+                        <label for="">Item Name</label>
+                        <input type="text" name="item_name" required>
+                    </div>
+                    <div>
+                        <label for="">Category</label>
+                        <input type="text" name="category" required>
+                    </div>
+                    <div>
+                        <label for="">Description</label>
+                        <input type="text" name="description" required>
+                    </div>
+                    <div>
+                        <label for="">Quantity</label>
+                        <input type="number" name="quantity" required>
+                    </div>
+                    <input id="submit" type="button" value="Upload">
+                </form>
+            </div>
+        </section>
+        <div class="results">
+            <h2>Form Data</h2>
+            <pre></pre>
+        </div>
+    </main>
+    <script type="text/javascript" src="js/dashboard.js"></script>
+</body>
+
+</html>
